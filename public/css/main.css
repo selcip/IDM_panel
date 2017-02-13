@@ -1,0 +1,83 @@
+html, body{
+    height: 100%;
+}
+ 
+body {
+    background: url('../images/idm.png') no-repeat fixed;
+    background-size: cover;
+}
+
+.login_box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_form > * {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.image_box {
+	float: left;
+	width: 40px;
+	height: 42px;
+	margin: 2px;
+	padding: 2px;
+	background-size:42px 40px;
+	background-repeat: no-repeat;
+	background-image: url("../images/img/item_bg.png");
+}
+
+.image_box2 {
+	float: left;
+	width: 1px;
+	height: 42px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.counter_fix {
+	position: relative;
+	top: 23px;
+	left: -5px;
+	padding-left: 1px;
+	font-size: 14px;
+	opacity: 1;
+	direction: rtl;
+}
+
+.version_fix {
+	position: relative;
+	top: 27px;
+	left: 300px;
+	width: 24px;
+	color: #BA0000;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.panel-footer, .panel-body {
+	text-align: center;
+	font-size: 18px;
+}
+
+.font_size_15 {
+	font-size: 15px;
+}
+
+.color_red {
+	color: #BA0000;
+}
+
+.item_grid {
+	position: absolute;
+	top: 140px;
+	left: 55px;
+
+	width: 573px;
+}
